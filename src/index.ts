@@ -18,3 +18,9 @@ program
   .option("-b, --blue-point", "Blue Point Oysters")
   .option("-c, --chelsea-gem", "Chelsea Gem Oysters")
   .parse(process.argv);
+
+console.log("You've ordered:");
+
+if (program.amethyst) console.log("Amethyst Oysters");
+if (program.bluePoint) console.log("Blue Point Oysters");
+if (program.chelseaGem) console.log("Chelsea Gem Oysters");
