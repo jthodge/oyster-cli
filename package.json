@@ -4,7 +4,7 @@
   "description": "An example CLI for ordering oysters",
   "main": "./lib/index.js",
   "bin": {
-    "oyster": "./lib.index.js"
+    "oyster": "./lib/index.js"
   },
   "scripts": {
     "start": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/index.ts",
