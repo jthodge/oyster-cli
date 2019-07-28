@@ -24,3 +24,7 @@ console.log("You've ordered:");
 if (program.amethyst) console.log("Amethyst Oysters");
 if (program.bluePoint) console.log("Blue Point Oysters");
 if (program.chelseaGem) console.log("Chelsea Gem Oysters");
+
+if (!process.argv.slice(2).length) {
+  program.outputHelp();
+}
